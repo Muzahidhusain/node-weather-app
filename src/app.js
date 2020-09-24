@@ -5,6 +5,7 @@ const app = express();
 const geoCode = require("./utils/geoCode");
 const foreCast = require("./utils/forecast");
 
+
 // Define path for Express config
 const publicDirectory = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../template/views");
